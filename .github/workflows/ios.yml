@@ -1,0 +1,33 @@
+name: iOS
+
+on:
+  push:
+    paths: ["ios/**", "content/**", "tools/**", ".github/workflows/ios.yml"]
+  pull_request:
+    paths: ["ios/**", "content/**", "tools/**", ".github/workflows/ios.yml"]
+
+jobs:
+  build:
+    # macOS minutes are billed at a higher rate; path filters keep this job
+    # from running on Android-only changes.
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build content bundle
+        run: python3 tools/build_content.py
+      - name: Core tests (shared fixtures)
+        working-directory: ios/RobinCore
+        run: swift test
+      - name: Generate Xcode project
+        working-directory: ios
+        run: |
+          brew install xcodegen
+          xcodegen
+      - name: Build app for the simulator
+        working-directory: ios
+        run: |
+          xcodebuild build \
+            -project Robin.xcodeproj \
+            -scheme Robin \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "terms.schema.json",
+  "title": "Glossary terms",
+  "type": "object",
+  "required": ["terms"],
+  "additionalProperties": false,
+  "properties": {
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "term", "definition"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^t-[a-z0-9-]+$" },
+          "term": { "type": "string", "minLength": 1 },
+          "ipa": { "type": "string" },
+          "definition": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "translationQuality": { "$ref": "common.schema.json#/$defs/translationQuality" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "id": "q-government-001",
+      "stationId": "st-government",
+      "factIds": ["f-government-001"],
+      "type": "single",
+      "prompt": {
+        "en": "What is the minimum age for voting in a UK general election?",
+        "zh-Hans": "在英国大选中投票的最低年龄是多少？",
+        "zh-Hant": "在英國大選中投票的最低年齡是多少？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "16" } },
+        { "id": "b", "text": { "en": "18" } },
+        { "id": "c", "text": { "en": "21" } },
+        { "id": "d", "text": { "en": "25" } }
+      ],
+      "answer": ["b"],
+      "explanation": {
+        "en": "According to the handbook, you must be 18 or over to vote in general elections.",
+        "zh-Hans": "根据手册，年满 18 岁才能在大选中投票。",
+        "zh-Hant": "根據手冊，年滿 18 歲才能在大選中投票。"
+      },
+      "difficulty": 1,
+      "examEligible": true
+    },
+    {
+      "id": "q-respecting-law-001",
+      "stationId": "st-respecting-law",
+      "factIds": ["f-respecting-law-001"],
+      "type": "multiple",
+      "prompt": {
+        "en": "Which TWO numbers can you call in an emergency?",
+        "zh-Hans": "遇到紧急情况，可以拨打哪两个号码？",
+        "zh-Hant": "遇到緊急情況，可以致電哪兩個號碼？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "999" } },
+        { "id": "b", "text": { "en": "112" } },
+        { "id": "c", "text": { "en": "111" } },
+        { "id": "d", "text": { "en": "101" } }
+      ],
+      "answer": ["a", "b"],
+      "explanation": {
+        "en": "999 and 112 are emergency numbers. 111 is for urgent medical advice and 101 is for non-emergency police contact.",
+        "zh-Hans": "999 和 112 是紧急号码。111 是 NHS 的非紧急医疗咨询，101 是非紧急情况联系警察。",
+        "zh-Hant": "999 和 112 是緊急號碼。111 是 NHS 的非緊急醫療諮詢，101 是非緊急情況聯絡警察。"
+      },
+      "difficulty": 1,
+      "examEligible": true,
+      "traps": ["choose-two"]
+    }
+  ]
+}

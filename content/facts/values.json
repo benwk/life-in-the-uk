@@ -1,0 +1,21 @@
+{
+  "facts": [
+    {
+      "id": "f-values-principles-001",
+      "stationId": "st-values-principles",
+      "kind": "story",
+      "text": {
+        "en": "British life is based on shared values: democracy, the rule of law, individual liberty, tolerance of people with different faiths and beliefs, and taking part in community life.",
+        "zh-Hans": "英国生活建立在共同的价值观之上：民主（democracy）、法治（the rule of law）、个人自由（individual liberty）、包容不同信仰的人（tolerance），以及参与社区生活（participation in community life）。",
+        "zh-Hant": "英國生活建基於共同的價值觀：民主（democracy）、法治（the rule of law）、個人自由（individual liberty）、包容不同信仰的人（tolerance），以及參與社區生活（participation in community life）。"
+      },
+      "memoryHook": {
+        "zh-Hans": "五个词：民主、法治、自由、包容、参与。口诀“民法自包参”。",
+        "zh-Hant": "五個詞：民主、法治、自由、包容、參與。口訣「民法自包參」。"
+      },
+      "termIds": ["t-democracy", "t-rule-of-law"],
+      "source": { "chapter": 1, "section": "The values and principles of the UK" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    }
+  ]
+}

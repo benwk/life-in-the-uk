@@ -1,0 +1,68 @@
+{
+  "lines": [
+    {
+      "id": "line-values",
+      "chapter": 1,
+      "color": "line-values",
+      "title": { "en": "Values and Principles", "zh-Hans": "价值观与原则", "zh-Hant": "價值觀與原則" },
+      "stations": [
+        { "id": "st-values-principles", "title": { "en": "The values and principles of the UK", "zh-Hans": "英国的价值观与原则", "zh-Hant": "英國的價值觀與原則" }, "minutes": 4, "stampIcon": "scales" },
+        { "id": "st-permanent-resident", "title": { "en": "Becoming a permanent resident", "zh-Hans": "成为永久居民", "zh-Hant": "成為永久居民" }, "minutes": 3, "stampIcon": "key" },
+        { "id": "st-taking-the-test", "title": { "en": "Taking the Life in the UK test", "zh-Hans": "参加 Life in the UK 考试", "zh-Hant": "參加 Life in the UK 考試" }, "minutes": 3, "stampIcon": "ticket" }
+      ]
+    },
+    {
+      "id": "line-uk",
+      "chapter": 2,
+      "color": "line-uk",
+      "title": { "en": "What is the UK?", "zh-Hans": "什么是英国？", "zh-Hant": "甚麼是英國？" },
+      "stations": [
+        { "id": "st-what-is-uk", "title": { "en": "What is the UK?", "zh-Hans": "什么是英国？", "zh-Hant": "甚麼是英國？" }, "minutes": 4, "stampIcon": "map" }
+      ]
+    },
+    {
+      "id": "line-history",
+      "chapter": 3,
+      "color": "line-history",
+      "title": { "en": "A Long and Illustrious History", "zh-Hans": "悠久辉煌的历史", "zh-Hant": "悠久輝煌的歷史" },
+      "stations": [
+        { "id": "st-early-britain", "title": { "en": "Early Britain", "zh-Hans": "早期不列颠", "zh-Hant": "早期不列顛" }, "minutes": 5, "stampIcon": "stonehenge" },
+        { "id": "st-middle-ages", "title": { "en": "The Middle Ages", "zh-Hans": "中世纪", "zh-Hant": "中世紀" }, "minutes": 5, "stampIcon": "helmet" },
+        { "id": "st-tudors-stuarts", "title": { "en": "The Tudors and Stuarts", "zh-Hans": "都铎与斯图亚特王朝", "zh-Hant": "都鐸與斯圖亞特王朝" }, "minutes": 5, "stampIcon": "crown" },
+        { "id": "st-global-power", "title": { "en": "A global power", "zh-Hans": "全球强国", "zh-Hant": "全球強國" }, "minutes": 5, "stampIcon": "steam-engine" },
+        { "id": "st-20th-century", "title": { "en": "The 20th century", "zh-Hans": "20 世纪", "zh-Hant": "20 世紀" }, "minutes": 5, "stampIcon": "poppy" },
+        { "id": "st-since-1945", "title": { "en": "Britain since 1945", "zh-Hans": "1945 年以来的英国", "zh-Hant": "1945 年以來的英國" }, "minutes": 5, "stampIcon": "nhs-cross" }
+      ]
+    },
+    {
+      "id": "line-society",
+      "chapter": 4,
+      "color": "line-society",
+      "title": { "en": "A Modern, Thriving Society", "zh-Hans": "现代繁荣的社会", "zh-Hant": "現代繁榮的社會" },
+      "stations": [
+        { "id": "st-uk-today", "title": { "en": "The UK today", "zh-Hans": "今天的英国", "zh-Hant": "今天的英國" }, "minutes": 4, "stampIcon": "city" },
+        { "id": "st-religion", "title": { "en": "Religion", "zh-Hans": "宗教", "zh-Hant": "宗教" }, "minutes": 4, "stampIcon": "cathedral" },
+        { "id": "st-customs", "title": { "en": "Customs and traditions", "zh-Hans": "习俗与传统", "zh-Hant": "習俗與傳統" }, "minutes": 4, "stampIcon": "daffodil" },
+        { "id": "st-sport", "title": { "en": "Sport", "zh-Hans": "体育", "zh-Hant": "體育" }, "minutes": 4, "stampIcon": "cricket-bat" },
+        { "id": "st-arts-culture", "title": { "en": "Arts and culture", "zh-Hans": "艺术与文化", "zh-Hant": "藝術與文化" }, "minutes": 5, "stampIcon": "quill" },
+        { "id": "st-leisure", "title": { "en": "Leisure", "zh-Hans": "休闲", "zh-Hant": "休閒" }, "minutes": 3, "stampIcon": "teacup" },
+        { "id": "st-places-of-interest", "title": { "en": "Places of interest", "zh-Hans": "名胜古迹", "zh-Hant": "名勝古蹟" }, "minutes": 4, "stampIcon": "clock-tower" }
+      ]
+    },
+    {
+      "id": "line-government",
+      "chapter": 5,
+      "color": "line-government",
+      "title": { "en": "The UK Government, the Law and Your Role", "zh-Hans": "政府、法律与你", "zh-Hant": "政府、法律與你" },
+      "stations": [
+        { "id": "st-democracy", "title": { "en": "The development of British democracy", "zh-Hans": "英国民主的发展", "zh-Hant": "英國民主的發展" }, "minutes": 4, "stampIcon": "ballot-box" },
+        { "id": "st-constitution", "title": { "en": "The British constitution", "zh-Hans": "英国宪制", "zh-Hant": "英國憲制" }, "minutes": 5, "stampIcon": "scroll" },
+        { "id": "st-government", "title": { "en": "The government", "zh-Hans": "政府", "zh-Hant": "政府" }, "minutes": 5, "stampIcon": "portcullis" },
+        { "id": "st-international", "title": { "en": "The UK and international institutions", "zh-Hans": "英国与国际组织", "zh-Hant": "英國與國際組織" }, "minutes": 3, "stampIcon": "globe" },
+        { "id": "st-respecting-law", "title": { "en": "Respecting the law", "zh-Hans": "遵守法律", "zh-Hant": "遵守法律" }, "minutes": 5, "stampIcon": "gavel" },
+        { "id": "st-fundamental-principles", "title": { "en": "Fundamental principles", "zh-Hans": "基本原则", "zh-Hant": "基本原則" }, "minutes": 3, "stampIcon": "handshake" },
+        { "id": "st-your-role", "title": { "en": "Your role in the community", "zh-Hans": "你在社区中的角色", "zh-Hant": "你在社區中的角色" }, "minutes": 4, "stampIcon": "hands" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "questions": [
+    {
+      "id": "q-values-principles-001",
+      "stationId": "st-values-principles",
+      "factIds": ["f-values-principles-001"],
+      "type": "multiple",
+      "prompt": {
+        "en": "Which TWO of the following are fundamental principles of British life?",
+        "zh-Hans": "以下哪两项是英国生活的基本原则？",
+        "zh-Hant": "以下哪兩項是英國生活的基本原則？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Democracy", "zh-Hans": "民主", "zh-Hant": "民主" } },
+        { "id": "b", "text": { "en": "Extremism", "zh-Hans": "极端主义", "zh-Hant": "極端主義" } },
+        { "id": "c", "text": { "en": "Individual liberty", "zh-Hans": "个人自由", "zh-Hant": "個人自由" } },
+        { "id": "d", "text": { "en": "Only one religion is allowed", "zh-Hans": "只允许一种宗教", "zh-Hant": "只允許一種宗教" } }
+      ],
+      "answer": ["a", "c"],
+      "explanation": {
+        "en": "Democracy and individual liberty are two of the shared values. The UK values tolerance of different faiths, so D is wrong.",
+        "zh-Hans": "民主和个人自由都属于英国的共同价值观。英国提倡包容不同信仰，所以 D 是错的。",
+        "zh-Hant": "民主和個人自由都屬於英國的共同價值觀。英國提倡包容不同信仰，所以 D 是錯的。"
+      },
+      "difficulty": 1,
+      "examEligible": true,
+      "traps": ["choose-two"]
+    }
+  ]
+}

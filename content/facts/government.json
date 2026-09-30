@@ -1,0 +1,34 @@
+{
+  "facts": [
+    {
+      "id": "f-government-001",
+      "stationId": "st-government",
+      "kind": "number",
+      "text": {
+        "en": "In the UK, you must be 18 or over to vote in general elections for the UK Parliament.",
+        "zh-Hans": "在英国，年满 18 岁才能在英国议会大选（general elections）中投票。",
+        "zh-Hant": "在英國，年滿 18 歲才能在英國國會大選（general elections）中投票。"
+      },
+      "examNote": {
+        "en": "Answer questions using the handbook. Some other elections in Scotland and Wales now allow younger voters, but that is not in the handbook.",
+        "zh-Hans": "按手册作答。苏格兰、威尔士的部分选举现在允许更年轻的人投票，但这不在手册里。",
+        "zh-Hant": "按手冊作答。蘇格蘭、威爾斯的部分選舉現在允許更年輕的人投票，但這不在手冊裏。"
+      },
+      "termIds": ["t-general-election"],
+      "source": { "chapter": 5, "section": "The government" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-respecting-law-001",
+      "stationId": "st-respecting-law",
+      "kind": "number",
+      "text": {
+        "en": "In an emergency, call 999 (or 112) for the police, fire service or ambulance.",
+        "zh-Hans": "遇到紧急情况，拨打 999（或 112）呼叫警察、消防或救护车。",
+        "zh-Hant": "遇到緊急情況，致電 999（或 112）召喚警察、消防或救護車。"
+      },
+      "source": { "chapter": 5, "section": "Respecting the law" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    }
+  ]
+}

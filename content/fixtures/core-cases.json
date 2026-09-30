@@ -1,0 +1,33 @@
+{
+  "_comment": "Shared test cases for the core logic. Both ios/RobinCore and android/core run every case here, so the two apps grade answers identically.",
+  "grading": [
+    { "name": "single correct", "type": "single", "answer": ["a"], "response": ["a"], "correct": true },
+    { "name": "single wrong", "type": "single", "answer": ["a"], "response": ["b"], "correct": false },
+    { "name": "single empty", "type": "single", "answer": ["a"], "response": [], "correct": false },
+    { "name": "choose two, any order", "type": "multiple", "answer": ["a", "c"], "response": ["c", "a"], "correct": true },
+    { "name": "choose two, one right", "type": "multiple", "answer": ["a", "c"], "response": ["a", "b"], "correct": false },
+    { "name": "choose two, only one picked", "type": "multiple", "answer": ["a", "c"], "response": ["a"], "correct": false },
+    { "name": "choose two, three picked", "type": "multiple", "answer": ["a", "c"], "response": ["a", "b", "c"], "correct": false },
+    { "name": "true/false", "type": "true_false", "answer": ["false"], "response": ["false"], "correct": true },
+    { "name": "statement wrong", "type": "statement", "answer": ["a"], "response": ["b"], "correct": false },
+    { "name": "order correct", "type": "order", "answer": ["b", "c", "a"], "response": ["b", "c", "a"], "correct": true },
+    { "name": "order wrong", "type": "order", "answer": ["b", "c", "a"], "response": ["c", "b", "a"], "correct": false },
+    { "name": "match correct", "type": "match", "answer": ["george", "andrew"], "response": ["george", "andrew"], "correct": true },
+    { "name": "match swapped", "type": "match", "answer": ["george", "andrew"], "response": ["andrew", "george"], "correct": false }
+  ],
+  "passMark": [
+    { "name": "real test pass", "questionCount": 24, "passMark": 18, "total": 24, "score": 18, "passed": true },
+    { "name": "real test fail", "questionCount": 24, "passMark": 18, "total": 24, "score": 17, "passed": false },
+    { "name": "mini mock scales pass mark (8 -> 6)", "questionCount": 24, "passMark": 18, "total": 8, "score": 6, "passed": true },
+    { "name": "mini mock fail", "questionCount": 24, "passMark": 18, "total": 8, "score": 5, "passed": false },
+    { "name": "scaled pass mark rounds up (10 -> 8)", "questionCount": 24, "passMark": 18, "total": 10, "score": 7, "passed": false }
+  ],
+  "trapRadar": [
+    { "text": "Which of these is NOT part of the UK?", "traps": ["negation"] },
+    { "text": "Which TWO of the following are patron saints?", "traps": ["choose-two"] },
+    { "text": "Which TWO statements are not correct?", "traps": ["choose-two", "negation"] },
+    { "text": "The monarch can always overrule Parliament.", "traps": ["absolute"] },
+    { "text": "Approximately two thirds of people voted.", "traps": [] },
+    { "text": "Nothing here is a trap, notably.", "traps": [] }
+  ]
+}

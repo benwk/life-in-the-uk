@@ -1,0 +1,80 @@
+{
+  "terms": [
+    {
+      "id": "t-democracy",
+      "term": "democracy",
+      "ipa": "/dɪˈmɒkrəsi/",
+      "definition": {
+        "en": "A system where people choose their government by voting.",
+        "zh-Hans": "民主：人民通过投票选择政府的制度。",
+        "zh-Hant": "民主：人民透過投票選擇政府的制度。"
+      }
+    },
+    {
+      "id": "t-rule-of-law",
+      "term": "the rule of law",
+      "definition": {
+        "en": "Everyone, including the government, must follow the same laws.",
+        "zh-Hans": "法治：所有人，包括政府，都必须遵守同样的法律。",
+        "zh-Hant": "法治：所有人，包括政府，都必須遵守同樣的法律。"
+      }
+    },
+    {
+      "id": "t-united-kingdom",
+      "term": "the United Kingdom (the UK)",
+      "definition": {
+        "en": "The country made up of England, Scotland, Wales and Northern Ireland.",
+        "zh-Hans": "联合王国（英国）：由英格兰、苏格兰、威尔士和北爱尔兰组成的国家。",
+        "zh-Hant": "聯合王國（英國）：由英格蘭、蘇格蘭、威爾斯和北愛爾蘭組成的國家。"
+      }
+    },
+    {
+      "id": "t-crown-dependency",
+      "term": "Crown dependency",
+      "ipa": "/kraʊn dɪˈpendənsi/",
+      "definition": {
+        "en": "A place linked to the British monarch but not part of the UK, with its own government.",
+        "zh-Hans": "王室属地：与英国君主有关联、但不属于英国、有自己政府的地方。",
+        "zh-Hant": "皇家屬地：與英國君主有關聯、但不屬於英國、有自己政府的地方。"
+      }
+    },
+    {
+      "id": "t-norman-conquest",
+      "term": "the Norman Conquest",
+      "definition": {
+        "en": "The invasion of England in 1066 by William, Duke of Normandy.",
+        "zh-Hans": "诺曼征服：1066 年诺曼底公爵威廉对英格兰的入侵。",
+        "zh-Hant": "諾曼征服：1066 年諾曼第公爵威廉對英格蘭的入侵。"
+      }
+    },
+    {
+      "id": "t-magna-carta",
+      "term": "the Magna Carta",
+      "ipa": "/ˌmæɡnə ˈkɑːtə/",
+      "definition": {
+        "en": "A charter from 1215 that limited the power of the king.",
+        "zh-Hans": "《大宪章》：1215 年签订、限制国王权力的文件。",
+        "zh-Hant": "《大憲章》：1215 年簽訂、限制國王權力的文件。"
+      }
+    },
+    {
+      "id": "t-patron-saint",
+      "term": "patron saint",
+      "ipa": "/ˈpeɪtrən seɪnt/",
+      "definition": {
+        "en": "A saint who is believed to protect a particular country or group.",
+        "zh-Hans": "守护圣徒：被认为守护某个国家或群体的圣人。",
+        "zh-Hant": "主保聖人：被認為守護某個國家或群體的聖人。"
+      }
+    },
+    {
+      "id": "t-general-election",
+      "term": "general election",
+      "definition": {
+        "en": "An election in which people across the UK choose their Members of Parliament.",
+        "zh-Hans": "大选：全英国选民选出议会议员（MP）的选举。",
+        "zh-Hant": "大選：全英國選民選出國會議員（MP）的選舉。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "facts": [
+    {
+      "id": "f-religion-001",
+      "stationId": "st-religion",
+      "kind": "date",
+      "text": {
+        "en": "St David's Day, 1 March, is the day of the patron saint of Wales.",
+        "zh-Hans": "3 月 1 日是圣大卫日（St David's Day），圣大卫是威尔士的守护圣徒（patron saint）。",
+        "zh-Hant": "3 月 1 日是聖大衛日（St David's Day），聖大衛是威爾斯的主保聖人（patron saint）。"
+      },
+      "memoryHook": {
+        "zh-Hans": "David 和 Daffodil（水仙，威尔士的象征之一）都以 D 开头，春天第一天就开花。",
+        "zh-Hant": "David 和 Daffodil（水仙，威爾斯的象徵之一）都以 D 開頭，春天第一天就開花。"
+      },
+      "termIds": ["t-patron-saint"],
+      "source": { "chapter": 4, "section": "Religion" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-religion-002",
+      "stationId": "st-religion",
+      "kind": "date",
+      "text": {
+        "en": "St Patrick's Day, 17 March, is the day of the patron saint of Northern Ireland.",
+        "zh-Hans": "3 月 17 日是圣帕特里克日（St Patrick's Day），圣帕特里克是北爱尔兰的守护圣徒。",
+        "zh-Hant": "3 月 17 日是聖派翠克節（St Patrick's Day），聖派翠克是北愛爾蘭的主保聖人。"
+      },
+      "termIds": ["t-patron-saint"],
+      "source": { "chapter": 4, "section": "Religion" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-religion-003",
+      "stationId": "st-religion",
+      "kind": "date",
+      "text": {
+        "en": "St George's Day, 23 April, is the day of the patron saint of England.",
+        "zh-Hans": "4 月 23 日是圣乔治日（St George's Day），圣乔治是英格兰的守护圣徒。",
+        "zh-Hant": "4 月 23 日是聖喬治日（St George's Day），聖喬治是英格蘭的主保聖人。"
+      },
+      "termIds": ["t-patron-saint"],
+      "source": { "chapter": 4, "section": "Religion" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-religion-004",
+      "stationId": "st-religion",
+      "kind": "date",
+      "text": {
+        "en": "St Andrew's Day, 30 November, is the day of the patron saint of Scotland.",
+        "zh-Hans": "11 月 30 日是圣安德鲁日（St Andrew's Day），圣安德鲁是苏格兰的守护圣徒。",
+        "zh-Hant": "11 月 30 日是聖安德魯日（St Andrew's Day），聖安德魯是蘇格蘭的主保聖人。"
+      },
+      "termIds": ["t-patron-saint"],
+      "source": { "chapter": 4, "section": "Religion" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-places-001",
+      "stationId": "st-places-of-interest",
+      "kind": "story",
+      "year": 2012,
+      "text": {
+        "en": "Big Ben is the nickname of the great bell in the clock at the Houses of Parliament. In 2012 the clock tower was named Elizabeth Tower for Queen Elizabeth II's Diamond Jubilee.",
+        "zh-Hans": "“大本钟”（Big Ben）其实是议会大厦（the Houses of Parliament）钟楼里那口大钟的昵称。2012 年，为纪念伊丽莎白二世登基 60 周年（钻禧），钟楼被命名为“伊丽莎白塔”（Elizabeth Tower）。",
+        "zh-Hant": "「大笨鐘」（Big Ben）其實是國會大廈（the Houses of Parliament）鐘樓裏那口大鐘的暱稱。2012 年，為紀念伊利沙伯二世登基 60 周年（鑽禧），鐘樓被命名為「伊利沙伯塔」（Elizabeth Tower）。"
+      },
+      "memoryHook": {
+        "zh-Hans": "Big Ben 是“钟”不是“塔”，塔的名字是女王给的。",
+        "zh-Hant": "Big Ben 是「鐘」不是「塔」，塔的名字是女皇給的。"
+      },
+      "source": { "chapter": 4, "section": "Places of interest" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    }
+  ]
+}

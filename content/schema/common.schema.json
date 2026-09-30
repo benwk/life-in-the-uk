@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Common definitions",
+  "$defs": {
+    "localeCode": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z]{2,4})?$"
+    },
+    "localizedText": {
+      "description": "Text keyed by locale code. English is required; other locales fall back to English.",
+      "type": "object",
+      "required": ["en"],
+      "properties": { "en": { "type": "string", "minLength": 1 } },
+      "propertyNames": { "$ref": "#/$defs/localeCode" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "partialLocalizedText": {
+      "description": "Text keyed by locale code where every locale is optional (e.g. memory hooks written per language).",
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "$ref": "#/$defs/localeCode" },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "translationQuality": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/localeCode" },
+      "additionalProperties": { "enum": ["human", "machine", "community"] }
+    }
+  }
+}

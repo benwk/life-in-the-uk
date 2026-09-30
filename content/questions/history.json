@@ -1,0 +1,126 @@
+{
+  "questions": [
+    {
+      "id": "q-early-britain-001",
+      "stationId": "st-early-britain",
+      "factIds": ["f-early-britain-001"],
+      "type": "single",
+      "prompt": {
+        "en": "Whose statue can be found on Westminster Bridge?",
+        "zh-Hans": "威斯敏斯特桥上有谁的雕像？",
+        "zh-Hant": "西敏橋上有誰的雕像？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Boudicca", "zh-Hans": "布狄卡", "zh-Hant": "布狄卡" } },
+        { "id": "b", "text": { "en": "Winston Churchill", "zh-Hans": "温斯顿·丘吉尔", "zh-Hant": "溫斯頓·邱吉爾" } },
+        { "id": "c", "text": { "en": "William the Conqueror", "zh-Hans": "征服者威廉", "zh-Hant": "征服者威廉" } },
+        { "id": "d", "text": { "en": "Robert the Bruce", "zh-Hans": "罗伯特·布鲁斯", "zh-Hant": "羅伯特·布魯斯" } }
+      ],
+      "answer": ["a"],
+      "explanation": {
+        "en": "Boudicca, queen of the Iceni, fought the Romans. Her statue is on Westminster Bridge near Parliament.",
+        "zh-Hans": "爱西尼部落的女王布狄卡曾对抗罗马人，她的雕像在议会附近的威斯敏斯特桥上。",
+        "zh-Hant": "愛西尼部落的女王布狄卡曾對抗羅馬人，她的雕像在國會附近的西敏橋上。"
+      },
+      "difficulty": 1,
+      "examEligible": true
+    },
+    {
+      "id": "q-middle-ages-001",
+      "stationId": "st-middle-ages",
+      "factIds": ["f-middle-ages-001"],
+      "type": "single",
+      "prompt": {
+        "en": "In which year did the Battle of Hastings take place?",
+        "zh-Hans": "黑斯廷斯战役发生在哪一年？",
+        "zh-Hant": "黑斯廷斯戰役發生在哪一年？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "1066" } },
+        { "id": "b", "text": { "en": "1215" } },
+        { "id": "c", "text": { "en": "1348" } },
+        { "id": "d", "text": { "en": "1588" } }
+      ],
+      "answer": ["a"],
+      "explanation": {
+        "en": "William, Duke of Normandy, won the Battle of Hastings in 1066. 1215 is the Magna Carta and 1348 is the Black Death.",
+        "zh-Hans": "诺曼底公爵威廉在 1066 年赢得黑斯廷斯战役。1215 年是《大宪章》，1348 年是黑死病。",
+        "zh-Hant": "諾曼第公爵威廉在 1066 年贏得黑斯廷斯戰役。1215 年是《大憲章》，1348 年是黑死病。"
+      },
+      "difficulty": 1,
+      "examEligible": true
+    },
+    {
+      "id": "q-middle-ages-002",
+      "stationId": "st-middle-ages",
+      "factIds": ["f-middle-ages-002"],
+      "type": "true_false",
+      "prompt": {
+        "en": "Is the statement below TRUE or FALSE? The Magna Carta gave the king more power.",
+        "zh-Hans": "下面这句话是对还是错？《大宪章》让国王拥有了更多权力。",
+        "zh-Hant": "下面這句話是對還是錯？《大憲章》讓國王擁有了更多權力。"
+      },
+      "options": [
+        { "id": "true", "text": { "en": "True", "zh-Hans": "对", "zh-Hant": "對" } },
+        { "id": "false", "text": { "en": "False", "zh-Hans": "错", "zh-Hant": "錯" } }
+      ],
+      "answer": ["false"],
+      "explanation": {
+        "en": "The Magna Carta limited the power of the king. It did not increase it.",
+        "zh-Hans": "《大宪章》限制了国王的权力，而不是增加。",
+        "zh-Hant": "《大憲章》限制了國王的權力，而不是增加。"
+      },
+      "difficulty": 1,
+      "examEligible": true
+    },
+    {
+      "id": "q-middle-ages-003",
+      "stationId": "st-middle-ages",
+      "factIds": ["f-middle-ages-003"],
+      "type": "single",
+      "prompt": {
+        "en": "Approximately what proportion of England's population died in the Black Death?",
+        "zh-Hans": "黑死病中英格兰大约有多少比例的人口死亡？",
+        "zh-Hant": "黑死病中英格蘭大約有多少比例的人口死亡？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "One tenth", "zh-Hans": "十分之一", "zh-Hant": "十分之一" } },
+        { "id": "b", "text": { "en": "One third", "zh-Hans": "三分之一", "zh-Hant": "三分之一" } },
+        { "id": "c", "text": { "en": "One half", "zh-Hans": "二分之一", "zh-Hant": "二分之一" } },
+        { "id": "d", "text": { "en": "Two thirds", "zh-Hans": "三分之二", "zh-Hant": "三分之二" } }
+      ],
+      "answer": ["b"],
+      "explanation": {
+        "en": "The Black Death arrived in 1348 and killed about one third of the population of England.",
+        "zh-Hans": "黑死病在 1348 年传入，英格兰大约三分之一的人口因此死亡。",
+        "zh-Hant": "黑死病在 1348 年傳入，英格蘭大約三分之一的人口因此死亡。"
+      },
+      "difficulty": 2,
+      "examEligible": true
+    },
+    {
+      "id": "q-middle-ages-004",
+      "stationId": "st-middle-ages",
+      "factIds": ["f-middle-ages-001", "f-middle-ages-002", "f-middle-ages-003"],
+      "type": "order",
+      "prompt": {
+        "en": "Put these events in order, from earliest to latest.",
+        "zh-Hans": "按时间先后给这些事件排序。",
+        "zh-Hant": "按時間先後為這些事件排序。"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "The Black Death", "zh-Hans": "黑死病", "zh-Hant": "黑死病" } },
+        { "id": "b", "text": { "en": "The Battle of Hastings", "zh-Hans": "黑斯廷斯战役", "zh-Hant": "黑斯廷斯戰役" } },
+        { "id": "c", "text": { "en": "The Magna Carta", "zh-Hans": "《大宪章》", "zh-Hant": "《大憲章》" } }
+      ],
+      "answer": ["b", "c", "a"],
+      "explanation": {
+        "en": "1066 Battle of Hastings → 1215 Magna Carta → 1348 Black Death.",
+        "zh-Hans": "1066 黑斯廷斯战役 → 1215《大宪章》→ 1348 黑死病。",
+        "zh-Hant": "1066 黑斯廷斯戰役 → 1215《大憲章》→ 1348 黑死病。"
+      },
+      "difficulty": 2,
+      "examEligible": false
+    }
+  ]
+}

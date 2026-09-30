@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "meta.schema.json",
+  "title": "Content bundle metadata and exam rules",
+  "type": "object",
+  "required": ["contentVersion", "handbook", "locales", "exam", "miniMock", "dailyTeaBreak"],
+  "additionalProperties": false,
+  "properties": {
+    "contentVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "handbook": {
+      "type": "object",
+      "required": ["title", "edition"],
+      "properties": { "title": { "type": "string" }, "edition": { "type": "string" } }
+    },
+    "locales": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["code", "name", "dir"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "$ref": "common.schema.json#/$defs/localeCode" },
+          "name": { "type": "string" },
+          "dir": { "enum": ["ltr", "rtl"] }
+        }
+      }
+    },
+    "exam": { "$ref": "#/$defs/examRules" },
+    "miniMock": {
+      "type": "object",
+      "required": ["questionCount", "durationMinutes"],
+      "properties": {
+        "questionCount": { "type": "integer", "minimum": 1 },
+        "durationMinutes": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "dailyTeaBreak": {
+      "type": "object",
+      "required": ["questionCount"],
+      "properties": { "questionCount": { "type": "integer", "minimum": 1 } }
+    }
+  },
+  "$defs": {
+    "examRules": {
+      "type": "object",
+      "required": ["questionCount", "durationMinutes", "passMark"],
+      "additionalProperties": false,
+      "properties": {
+        "questionCount": { "type": "integer", "minimum": 1 },
+        "durationMinutes": { "type": "integer", "minimum": 1 },
+        "passMark": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

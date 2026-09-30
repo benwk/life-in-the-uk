@@ -1,0 +1,69 @@
+{
+  "facts": [
+    {
+      "id": "f-early-britain-001",
+      "stationId": "st-early-britain",
+      "kind": "person",
+      "text": {
+        "en": "Boudicca was queen of the Iceni tribe in what is now eastern England. She fought against the Romans, and her statue stands on Westminster Bridge in London.",
+        "zh-Hans": "布狄卡（Boudicca）是今天英格兰东部爱西尼部落（the Iceni）的女王。她曾对抗罗马人，她的雕像就在伦敦的威斯敏斯特桥（Westminster Bridge）上。",
+        "zh-Hant": "布狄卡（Boudicca）是今天英格蘭東部愛西尼部落（the Iceni）的女王。她曾對抗羅馬人，她的雕像就在倫敦的西敏橋（Westminster Bridge）上。"
+      },
+      "memoryHook": {
+        "zh-Hans": "女王驾着战车冲向罗马人，今天还“守”在议会旁边的桥头。",
+        "zh-Hant": "女王駕着戰車衝向羅馬人，今天還「守」在議會旁邊的橋頭。"
+      },
+      "source": { "chapter": 3, "section": "Early Britain" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-middle-ages-001",
+      "stationId": "st-middle-ages",
+      "kind": "date",
+      "year": 1066,
+      "text": {
+        "en": "In 1066, William, Duke of Normandy, defeated the English king Harold at the Battle of Hastings. This is known as the Norman Conquest.",
+        "zh-Hans": "1066 年，诺曼底公爵威廉（William, Duke of Normandy）在黑斯廷斯战役（the Battle of Hastings）中击败英格兰国王哈罗德（Harold），史称“诺曼征服”（the Norman Conquest）。",
+        "zh-Hant": "1066 年，諾曼第公爵威廉（William, Duke of Normandy）在黑斯廷斯戰役（the Battle of Hastings）中擊敗英格蘭國王哈羅德（Harold），史稱「諾曼征服」（the Norman Conquest）。"
+      },
+      "memoryHook": {
+        "zh-Hans": "1066，“要溜溜”：威廉公爵一溜烟就打过了海峡。",
+        "zh-Hant": "1066，「要溜溜」：威廉公爵一溜煙就打過了海峽。"
+      },
+      "termIds": ["t-norman-conquest"],
+      "source": { "chapter": 3, "section": "The Middle Ages" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-middle-ages-002",
+      "stationId": "st-middle-ages",
+      "kind": "date",
+      "year": 1215,
+      "text": {
+        "en": "In 1215, King John was forced by his noblemen to agree to the Magna Carta. It limited the power of the king.",
+        "zh-Hans": "1215 年，约翰国王（King John）被贵族逼着同意了《大宪章》（the Magna Carta），它限制了国王的权力。",
+        "zh-Hant": "1215 年，約翰國王（King John）被貴族逼着同意了《大憲章》（the Magna Carta），它限制了國王的權力。"
+      },
+      "memoryHook": {
+        "zh-Hans": "1215 年的一纸大宪章：国王也要守规矩。",
+        "zh-Hant": "1215 年的一紙大憲章：國王也要守規矩。"
+      },
+      "termIds": ["t-magna-carta"],
+      "source": { "chapter": 3, "section": "The Middle Ages" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-middle-ages-003",
+      "stationId": "st-middle-ages",
+      "kind": "number",
+      "year": 1348,
+      "text": {
+        "en": "In 1348, a plague called the Black Death came to Britain. About one third of the population of England died.",
+        "zh-Hans": "1348 年，一场叫“黑死病”（the Black Death）的瘟疫传到不列颠，英格兰大约三分之一的人口死亡。",
+        "zh-Hant": "1348 年，一場叫「黑死病」（the Black Death）的瘟疫傳到不列顛，英格蘭大約三分之一的人口死亡。"
+      },
+      "source": { "chapter": 3, "section": "The Middle Ages" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    }
+  ]
+}

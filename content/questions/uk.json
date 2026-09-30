@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "id": "q-what-is-uk-001",
+      "stationId": "st-what-is-uk",
+      "factIds": ["f-what-is-uk-001"],
+      "type": "single",
+      "prompt": {
+        "en": "Which of these is NOT part of the UK?",
+        "zh-Hans": "以下哪个不属于英国？",
+        "zh-Hant": "以下哪個不屬於英國？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Wales", "zh-Hans": "威尔士", "zh-Hant": "威爾斯" } },
+        { "id": "b", "text": { "en": "Northern Ireland", "zh-Hans": "北爱尔兰", "zh-Hant": "北愛爾蘭" } },
+        { "id": "c", "text": { "en": "The Republic of Ireland", "zh-Hans": "爱尔兰共和国", "zh-Hant": "愛爾蘭共和國" } },
+        { "id": "d", "text": { "en": "Scotland", "zh-Hans": "苏格兰", "zh-Hant": "蘇格蘭" } }
+      ],
+      "answer": ["c"],
+      "explanation": {
+        "en": "The UK is England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate country.",
+        "zh-Hans": "英国由英格兰、苏格兰、威尔士和北爱尔兰组成。爱尔兰共和国是另一个国家。",
+        "zh-Hant": "英國由英格蘭、蘇格蘭、威爾斯和北愛爾蘭組成。愛爾蘭共和國是另一個國家。"
+      },
+      "difficulty": 1,
+      "examEligible": true,
+      "traps": ["negation"]
+    },
+    {
+      "id": "q-what-is-uk-002",
+      "stationId": "st-what-is-uk",
+      "factIds": ["f-what-is-uk-002"],
+      "type": "statement",
+      "prompt": {
+        "en": "Which of the following statements is correct?",
+        "zh-Hans": "以下哪句话是正确的？",
+        "zh-Hant": "以下哪句話是正確的？"
+      },
+      "options": [
+        { "id": "a", "text": { "en": "Great Britain includes England, Scotland and Wales.", "zh-Hans": "大不列颠包括英格兰、苏格兰和威尔士。", "zh-Hant": "大不列顛包括英格蘭、蘇格蘭和威爾斯。" } },
+        { "id": "b", "text": { "en": "Great Britain includes England, Scotland, Wales and Northern Ireland.", "zh-Hans": "大不列颠包括英格兰、苏格兰、威尔士和北爱尔兰。", "zh-Hant": "大不列顛包括英格蘭、蘇格蘭、威爾斯和北愛爾蘭。" } }
+      ],
+      "answer": ["a"],
+      "explanation": {
+        "en": "Great Britain does not include Northern Ireland. The UK does.",
+        "zh-Hans": "大不列颠不包括北爱尔兰，但英国（the UK）包括。",
+        "zh-Hant": "大不列顛不包括北愛爾蘭，但英國（the UK）包括。"
+      },
+      "difficulty": 2,
+      "examEligible": true
+    },
+    {
+      "id": "q-what-is-uk-003",
+      "stationId": "st-what-is-uk",
+      "factIds": ["f-what-is-uk-003"],
+      "type": "true_false",
+      "prompt": {
+        "en": "Is the statement below TRUE or FALSE? The Channel Islands are part of the UK.",
+        "zh-Hans": "下面这句话是对还是错？海峡群岛属于英国。",
+        "zh-Hant": "下面這句話是對還是錯？海峽群島屬於英國。"
+      },
+      "options": [
+        { "id": "true", "text": { "en": "True", "zh-Hans": "对", "zh-Hant": "對" } },
+        { "id": "false", "text": { "en": "False", "zh-Hans": "错", "zh-Hant": "錯" } }
+      ],
+      "answer": ["false"],
+      "explanation": {
+        "en": "The Channel Islands are Crown dependencies with their own governments. They are not part of the UK.",
+        "zh-Hans": "海峡群岛是王室属地，有自己的政府，不属于英国。",
+        "zh-Hant": "海峽群島是皇家屬地，有自己的政府，不屬於英國。"
+      },
+      "difficulty": 2,
+      "examEligible": true
+    }
+  ]
+}

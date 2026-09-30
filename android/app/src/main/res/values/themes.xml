@@ -1,0 +1,7 @@
+<resources>
+    <!-- Window theme only; the UI is themed in Compose (ui/theme/Theme.kt). -->
+    <style name="Theme.Robin" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+    </style>
+    <color name="paper">#FFFAF6EE</color>
+</resources>

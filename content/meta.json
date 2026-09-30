@@ -1,0 +1,24 @@
+{
+  "contentVersion": "0.1.0",
+  "handbook": {
+    "title": "Life in the United Kingdom: A Guide for New Residents",
+    "edition": "3rd"
+  },
+  "locales": [
+    { "code": "en", "name": "English", "dir": "ltr" },
+    { "code": "zh-Hans", "name": "中文（简体）", "dir": "ltr" },
+    { "code": "zh-Hant", "name": "繁體中文", "dir": "ltr" }
+  ],
+  "exam": {
+    "questionCount": 24,
+    "durationMinutes": 45,
+    "passMark": 18
+  },
+  "miniMock": {
+    "questionCount": 8,
+    "durationMinutes": 15
+  },
+  "dailyTeaBreak": {
+    "questionCount": 5
+  }
+}

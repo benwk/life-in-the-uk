@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "facts.schema.json",
+  "title": "Facts (atomic knowledge points)",
+  "type": "object",
+  "required": ["facts"],
+  "additionalProperties": false,
+  "properties": {
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "stationId", "kind", "text", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^f-[a-z0-9-]+-[0-9]{3}$" },
+          "stationId": { "type": "string", "pattern": "^st-[a-z0-9-]+$" },
+          "kind": { "enum": ["story", "date", "person", "map", "comparison", "number", "exam-tip"] },
+          "year": { "type": "integer" },
+          "text": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "memoryHook": { "$ref": "common.schema.json#/$defs/partialLocalizedText" },
+          "examNote": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "termIds": { "type": "array", "items": { "type": "string", "pattern": "^t-[a-z0-9-]+$" } },
+          "source": {
+            "type": "object",
+            "required": ["chapter", "section"],
+            "additionalProperties": false,
+            "properties": {
+              "chapter": { "type": "integer", "minimum": 1 },
+              "section": { "type": "string", "minLength": 1 }
+            }
+          },
+          "translationQuality": { "$ref": "common.schema.json#/$defs/translationQuality" },
+          "retired": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

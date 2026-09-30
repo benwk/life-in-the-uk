@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "id": "f-what-is-uk-001",
+      "stationId": "st-what-is-uk",
+      "kind": "comparison",
+      "text": {
+        "en": "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
+        "zh-Hans": "英国（the UK）由四个部分组成：英格兰（England）、苏格兰（Scotland）、威尔士（Wales）和北爱尔兰（Northern Ireland）。",
+        "zh-Hant": "英國（the UK）由四個部分組成：英格蘭（England）、蘇格蘭（Scotland）、威爾斯（Wales）和北愛爾蘭（Northern Ireland）。"
+      },
+      "termIds": ["t-united-kingdom"],
+      "source": { "chapter": 2, "section": "What is the UK?" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-what-is-uk-002",
+      "stationId": "st-what-is-uk",
+      "kind": "comparison",
+      "text": {
+        "en": "\"Great Britain\" means only England, Scotland and Wales. It does not include Northern Ireland.",
+        "zh-Hans": "“Great Britain”（大不列颠）只包括英格兰、苏格兰和威尔士，不包括北爱尔兰。",
+        "zh-Hant": "「Great Britain」（大不列顛）只包括英格蘭、蘇格蘭和威爾斯，不包括北愛爾蘭。"
+      },
+      "memoryHook": {
+        "zh-Hans": "Great Britain 是一座“大岛”，北爱尔兰在另一座岛上，所以不算。",
+        "zh-Hant": "Great Britain 是一座「大島」，北愛爾蘭在另一座島上，所以不算。"
+      },
+      "examNote": {
+        "en": "A common trap: questions often mix up \"the UK\" and \"Great Britain\".",
+        "zh-Hans": "常见陷阱：题目经常把“the UK”和“Great Britain”混在一起考。",
+        "zh-Hant": "常見陷阱：題目經常把「the UK」和「Great Britain」混在一起考。"
+      },
+      "termIds": ["t-united-kingdom"],
+      "source": { "chapter": 2, "section": "What is the UK?" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    },
+    {
+      "id": "f-what-is-uk-003",
+      "stationId": "st-what-is-uk",
+      "kind": "comparison",
+      "text": {
+        "en": "The Isle of Man and the Channel Islands are not part of the UK. They are Crown dependencies with their own governments.",
+        "zh-Hans": "马恩岛（the Isle of Man）和海峡群岛（the Channel Islands）不属于英国。它们是王室属地（Crown dependencies），有自己的政府。",
+        "zh-Hant": "馬恩島（the Isle of Man）和海峽群島（the Channel Islands）不屬於英國。它們是皇家屬地（Crown dependencies），有自己的政府。"
+      },
+      "termIds": ["t-crown-dependency"],
+      "source": { "chapter": 2, "section": "What is the UK?" },
+      "translationQuality": { "zh-Hans": "machine", "zh-Hant": "machine" }
+    }
+  ]
+}
